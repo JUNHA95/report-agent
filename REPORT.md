@@ -98,3 +98,12 @@ Postman을 이용하여 API 요청을 개별적으로 검증했다. 단, 컬렉�
 **최종 판정: Basic 구현 및 개별 기능 검증 완료.**
 
 전체 Postman 자동 검사 59건의 일괄 통과 여부는 미확인 항목으로 남긴다.
+
+## Postman Collection Runner 검증
+
+- `capture-pass.png`: 정상적으로 통과한 API 요청 결과
+- `capture-fail.png`: 중급 기능인 API-04 Category + Updated After 요청의 실패 결과
+- 실패 내용: HTTP 200을 예상했으나 HTTP 422 반환
+- Basic 실습 범위의 API 요청은 정상적으로 통과함
+
+※ HTTP 422는 요청값 검증 오류이며, 해당 중급 기능은 Basic 실습의 필수 검증 범위에서 제외함.
